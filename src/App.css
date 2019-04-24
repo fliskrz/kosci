@@ -1,0 +1,38 @@
+body {
+  margin: 10px 20px;
+}
+
+.dice {
+  height: 50px;
+  width: 50px;
+  background: lightblue;
+  border: 2px solid green;
+  margin :2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.unchecked {
+  border: 2px solid blue;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.top_section, .bottom_section{
+  display:flex;
+  flex-direction: column;
+}
+
+.top_section div {
+  display:flex;
+  justify-content: space-around;
+}
